@@ -3,8 +3,7 @@ use std::{fs::File, io::Read};
 use anyhow::Result;
 use reqwest::Client;
 
-#[tokio::main]
-async fn main() -> Result<()> {
+pub async fn main() -> Result<()> {
     // let url = "https://adventofcode.com/2024/day/2/input";
     // let client = Client::new();
     // let resp = client
